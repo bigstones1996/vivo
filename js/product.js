@@ -18,7 +18,7 @@ $(function () {
         var dt2 = await promiseAjax({
             url: '../php/product/product2.php',
             datatype: 'json',
-            data: `type="配件产品"`
+            data: `type="2"`
         })
 
 
@@ -346,13 +346,20 @@ $(function () {
         })
         $(".recommend-con ul").eq(0).html(str3)
         $(".recommend-con ul").eq(1).html(str4)
-
+        var tp1 = ''
+        if (dt.type == 1) {
+            tp1 = "智能手机"
+        } else if (dt.type == 2) {
+            tp1 = "配件产品"
+        } else {
+            tp1 = "服务"
+        }
 
         var str5 = `
                      <a href="../html/index.html">商城首页</a>
                     <span class="nav-online">
                         <i class="iconfont icon-jiantou-r"></i>
-                        ${dt.type}
+                        ${tp1}
                     </span>
                     <span class="nav-online">
                     <i class="iconfont icon-jiantou-r"></i>
@@ -378,8 +385,8 @@ $(function () {
                 })
             })
         })
-        $(".small-img img").mouseenter(function(){
-            $(".right img").attr("src",$(this).attr("src"))
+        $(".small-img img").mouseenter(function () {
+            $(".right img").attr("src", $(this).attr("src"))
         })
 
 
@@ -400,10 +407,10 @@ $(function () {
                 "left": w1,
                 "top": h1
             })
-            
+
             $(".right img").css({
-                "left": -w1*2,
-                "top": -h1*2
+                "left": -w1 * 2,
+                "top": -h1 * 2
             })
 
         })
