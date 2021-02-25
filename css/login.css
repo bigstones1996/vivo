@@ -1,0 +1,244 @@
+.container-fluid {
+  line-height: 1.6;
+  background-color: #f7f7f7;
+}
+
+.container-fluid .login {
+  background-color: #f0f2f5;
+}
+
+.container-fluid .login .banner {
+  margin: 0 auto;
+  width: 1200px;
+  height: 780px;
+  background: url(../img/login/login1.jpg) no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.container-fluid .login .logo img {
+  width: 145px;
+  height: 52px;
+  position: absolute;
+  left: 243px;
+  top: 0;
+}
+
+.container-fluid .login form {
+  width: 360px;
+  height: 578px;
+  padding: 30px 30px 20px 30px;
+  position: absolute;
+  right: 0;
+  top: 74px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.container-fluid .login form img {
+  width: 160px;
+  height: 42px;
+}
+
+.container-fluid .login form p {
+  font-size: 19px;
+  line-height: 30px;
+  margin: 15px 0 0 0;
+}
+
+.container-fluid .login form .acc {
+  text-align: right;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.container-fluid .login form .acc a {
+  color: #456fff;
+}
+
+.container-fluid .login form input[type="text"], .container-fluid .login form input[type="password"] {
+  width: 358px;
+  height: 46px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: Arial;
+  text-indent: 2em;
+  border: 1px solid #dedfe0;
+}
+
+.container-fluid .login form .rem {
+  width: 100%;
+  height: 22px;
+  text-align: right;
+  margin-top: 19px;
+  font-size: 14px;
+}
+
+.container-fluid .login form .rem span {
+  float: right;
+}
+
+.container-fluid .login form .check {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #dedfe0;
+  float: right;
+  margin-right: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.container-fluid .login form .check img {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 14px;
+  height: 14px;
+  display: none;
+}
+
+.container-fluid .login form .check .show {
+  display: block;
+}
+
+.container-fluid .login form button {
+  background-color: #418eff;
+  color: #fff;
+}
+
+.container-fluid .login form button:hover {
+  background-color: #456fff;
+}
+
+.container-fluid .login form .register, .container-fluid .login form button {
+  width: 100%;
+  line-height: 48px;
+  margin-top: 20px;
+  font-family: HYQiHei-EZS,microsoft yahei,Helvetica Neue,Helvetica,Tahoma,sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.container-fluid .login form .register {
+  color: #456fff;
+  border: 1px solid #456fff;
+}
+
+.container-fluid .login form .register:hover {
+  background-color: #d4dffa;
+}
+
+.container-fluid .login form .tips {
+  margin-top: 15px;
+  height: 40px;
+  font-family: HYQiHei-EZS,microsoft yahei,Helvetica Neue,Helvetica,Tahoma,sans-serif;
+  font-size: 13px;
+  text-align: left;
+  color: #999;
+}
+
+.container-fluid .login form .other-way {
+  height: 66px;
+  margin-top: 30px;
+  font-family: HYQiHei-EZS,microsoft yahei,Helvetica Neue,Helvetica,Tahoma,sans-serif;
+  font-size: 13px;
+  color: #999;
+}
+
+.container-fluid .login form .o-title {
+  position: relative;
+}
+
+.container-fluid .login form .o-title::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  width: 130px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.container-fluid .login form .o-title::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  width: 130px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.container-fluid .login form .o-icon {
+  margin-top: 15px;
+  height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .login form .o-icon .wx, .container-fluid .login form .o-icon .ali, .container-fluid .login form .o-icon .wb {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.container-fluid .login form .o-icon .wx {
+  background: url(../img/login/weixin1.png) no-repeat;
+}
+
+.container-fluid .login form .o-icon .wx:hover {
+  background: url(../img/login/weixin-hover.png) no-repeat;
+}
+
+.container-fluid .login form .o-icon .ali {
+  background: url(../img/login/zhifubao.png) no-repeat;
+  margin-left: 18px;
+}
+
+.container-fluid .login form .o-icon .ali:hover {
+  background: url(../img/login/zhifubao-hover.png) no-repeat;
+}
+
+.container-fluid .login form .o-icon .wb {
+  background: url(../img/login/weibo.png) no-repeat;
+  margin-left: 18px;
+}
+
+.container-fluid .login form .o-icon .wb:hover {
+  background: url(../img/login/weibo-hover.png) no-repeat;
+}
+
+.container-fluid .foot {
+  text-align: center;
+  margin: 135px 0 30px;
+}
+
+.container-fluid .foot .service {
+  font-size: 12px;
+}
+
+.container-fluid .foot .service a {
+  color: #666;
+  margin-right: 30px;
+}
+
+.container-fluid .foot .service a:hover {
+  color: #456fff;
+}
+
+.container-fluid .foot .service img {
+  margin-right: 10px;
+}
+
+.container-fluid .foot .copyright {
+  font-size: 12px;
+  padding: 10px 0;
+  color: #9d9d9d;
+}
+/*# sourceMappingURL=login.css.map */

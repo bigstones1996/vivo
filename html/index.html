@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/firstpage.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../font-icon/iconfont.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" href="../img/favicon.ico">
+    <script src="../lib/jquery/jquery.js"></script>
+    <script src="../js/firstpage.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../lib/ajax.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+</head>
+
+<body>
+    <div id="app">
+        
+        <div class="content clearfix">
+            <div class="banner ">
+                <div class="banner-wrap clearfix">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../img/firstpage/banner1.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../img/firstpage/banner2.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../img/firstpage/banner3.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../img/firstpage/banner4.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../img/firstpage/banner5.jpg">
+                            </div>
+
+                        </div>
+                        <!-- 如果需要分页器 -->
+                        <!-- <div class="swiper-pagination"></div> -->
+
+                        <!-- 如果需要导航按钮 -->
+                        <!-- <div class="swiper-button-prev attr"></div>
+                        <div class="swiper-button-next attr"></div> -->
+
+                        <!-- 如果需要滚动条 -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+
+                </div>
+            </div>
+            <div class="category">
+                <ul class="category-box">
+                    <li>
+                        <a href="../html/list.html?list=1">
+                            <span>手机</span>
+                            <i class="iconfont icon-jiantou-r"></i>
+                        </a>
+                        <div class="category-detail ">
+                            <div class="category-detail-box ">
+                                <p>手机</p>
+                                <a href="../html/list.html?list=1" class="category-all">
+                                    全部手机
+                                    <i class="iconfont icon-jiantou-r"></i>
+                                </a>
+                                <ol class="category-sub clearfix">
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1609239610774_312x100.png&quot;);">vivo
+                                            NEX</a></li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1611297256484_312x100.png&quot;);">vivo
+                                            X</a></li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1609240369284_312x100.png&quot;);">vivo
+                                            S</a></li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1611037054397_312x100.png&quot;);">vivo
+                                            Y</a></li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1611556669732_312x100.png&quot;);">iQOO
+                                            旗舰</a></li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1609240519942_312x100.png&quot;);">iQOO
+                                            Neo</a></li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1609240607453_312x100.png&quot;);">iQOO
+                                            Z</a></li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1609240987253_312x100.png&quot;);">iQOO
+                                            U</a></li>
+                                </ol>
+                                <ol class="category-product ">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/10/10006210_1610692020286_250x250.png">
+                                            <span>vivoX60 Pro+</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10006148_1608018841848_250x250.png">
+                                            <span>vivo Y31s</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/80/10006180_1609731091225_250x250.jpg">
+                                            <span>iQOO 7</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/60/10006160_1608110556729_250x250.png">
+                                            <span>vivo X60 Pro</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/59/10006159_1608110027623_250x250.png">
+                                            <span>vivo X60</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/40/10006140_1607569857802_250x250.jpg">
+                                            <span>iQOO U3</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/86/10006086_1606121827266_250x250.png">
+                                            <span>vivo Y52s</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/84/10006084_1606967425265_250x250.png">
+                                            <span>vivo Y30标准版</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/01/10006001_1604305430477_250x250.png">
+                                            <span>vivo S7e</span>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../html/list.html?list=2">
+                            <span>手机充电</span>
+                            <i class="iconfont icon-jiantou-r"></i>
+                        </a>
+                        <div class="category-detail ">
+                            <div class="category-detail-box ">
+                                <p>手机充电</p>
+                                <a href="../html/list.html?list=2" class="category-all">
+                                    全部手机充电
+                                    <i class="iconfont icon-jiantou-r"></i>
+                                </a>
+                                <ol class="category-sub clearfix">
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577197303327_312x100.jpg&quot;);">数据线</a>
+                                    </li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577194944450_312x100.jpg&quot;);">充电器</a>
+                                    </li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577195986915_312x100.jpg&quot;);">移动电源</a>
+                                    </li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196086777_312x100.jpg&quot;);">插座插线板</a>
+                                    </li>
+                                    <li><a href="javascript:;"
+                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1601289212842_312x100.jpg&quot;);">车载配件</a>
+                                    </li>
+                                </ol>
+                                <ol class="category-product ">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/88/10001688_1590736642584_250x250.png">
+                                            <span>vivo 33W闪充充电器</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/03/10001303_1588754676784_250x250.png">
+                                            <span>vivo 2A USB数据线</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/38/10005938_1609318824944_250x250.png">
+                                            <span>iQOO 6A Type-C闪充数据线</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/08/10005708_1609318883415_250x250.png">
+                                            <span>原装 33W/55W车载充电器</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/98/10005698_1596790129387_250x250.png">
+                                            <span>vivo 5A Type-C数据线</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/91/10005891_1600397418478_250x250.png">
+                                            <span>vivo 65W多口超快闪充充电器</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/30/10001130_1589354013098_250x250.png">
+                                            <span>vivo 4A Type-C数据线</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/25/10002425_1609318429032_250x250.png">
+                                            <span>2A Type-C手游数据线</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/89/10001689_1589854222464_250x250.png"">
+                                            <span>vivo 3A Type-C数据线</span>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href=" ../html/list.html?list=2">
+                                            <span>手机配件</span>
+                                            <i class="iconfont icon-jiantou-r"></i>
+                                        </a>
+                                        <div class="category-detail ">
+                                            <div class="category-detail-box ">
+                                                <p>手机配件</p>
+                                                <a href="../html/list.html?list=2" class="category-all">
+                                                    全部手机配件
+                                                    <i class="iconfont icon-jiantou-r"></i>
+                                                </a>
+                                                <ol class="category-sub clearfix">
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1601288726183_312x100.jpg&quot;);">体脂秤</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1600141753588_312x100.png&quot;);">智能穿戴</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196867847_312x100.jpg&quot;);">智慧家居</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1594974353539_312x100.jpg&quot;);">家用电器</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577197041084_312x100.jpg&quot;);">儿童专区</a>
+                                                    </li>
+                                                </ol>
+                                                <ol class="category-product ">
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/13/10005713_1600136557273_250x250.png">
+                                                            <span>vivo WATCH</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/68/10000068_1543828629584_250x250.jpg">
+                                                            <span>乐心手环Mambo5</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/13/10006213_1610527645108_250x250.png">
+                                                            <span>Zaiwan 岁月鎏金加湿器 BP3</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/90/10006090_1605777809937_250x250.png">
+                                                            <span>网易严选 碳纤维取暖器</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/43/10001543_1569501607763_250x250.jpg">
+                                                            <span>乐心手环 5S</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/19/10006219_1610681207423_250x250.png">
+                                                            <span>小天才儿童电话手表 Z6巅峰版</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/18/10006218_1610680857848_250x250.png">
+                                                            <span>小天才儿童电话手表 Z5A</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/17/10006217_1610680498699_250x250.png">
+                                                            <span>小天才儿童电话手表 Y06</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/15/10006215_1610612969051_250x250.png">
+                                                            <span>小天才儿童电话手表 Q1A</span></a></li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href=" ../html/list.html?list=2">                                            <span>音乐设备</span>
+                                            <i class="iconfont icon-jiantou-r"></i>
+                                        </a>
+                                        <div class="category-detail ">
+                                            <div class="category-detail-box ">
+                                                <p>音乐设备</p>
+                                                <a href=" ../html/list.html?list=2" class="category-all">
+                                                    全部音乐设备
+                                                    <i class="iconfont icon-jiantou-r"></i>
+                                                </a>
+                                                <ol class="category-sub clearfix">
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196275017_312x100.jpg&quot;);">保护膜</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196125671_312x100.jpg&quot;);">保护壳</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196243087_312x100.jpg&quot;);">通用配件</a>
+                                                    </li>
+                                                </ol>
+                                                <ol class="category-product ">
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/47/10006247_1612150444865_250x250.png"
+                                                                lazy="l"><span>vivo X60系列透明保护膜</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/85/10001685_1588768961483_250x250.png"
+                                                                lazy=""><span>iQOO Neo 织纹亚光手机保护壳</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/07/10006207_1610004203414_250x250.jpg"
+                                                                lazy=""><span>iQOO 7砂岩保护壳</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/09/10005709_1597048249360_250x250.png"
+                                                                lazy=""><span>vivo S7保护膜</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/29/10005929_1602224538905_250x250.png"
+                                                                lazy=""><span>vivo X50 Pro皮革保护壳</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/93/10005893_1609319169400_250x250.png"
+                                                                lazy=""><span>iQOO 钢化膜</span>
+                                                        </a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/38/10005838_1609318675452_250x250.png"
+                                                                lazy=""><span>iQOO 5 Pro 3D 曲面高透保护膜</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/37/10005837_1609318704842_250x250.png"
+                                                                lazy=""><span>iQOO 5 原装高透保护膜</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/31/10005731_1609318739185_250x250.png"
+                                                                lazy=""><span>iQOO 5砂岩保护壳</span></a></li>
+                                                    <li> <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/32/10005732_1609318653354_250x250.png"
+                                                                lazy=""><span>iQOO 5 Pro砂岩保护壳</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/90/10005690_1596613594814_250x250.png"
+                                                                lazy=""><span>vivo S7保护壳</span></a></li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href=" ../html/list.html?list=2">
+                                            <span>智能硬件</span>
+                                            <i class="iconfont icon-jiantou-r"></i>
+                                        </a>
+                                        <div class="category-detail ">
+                                            <div class="category-detail-box ">
+                                                <p>智能硬件</p>
+                                                <a href=" ../html/list.html?list=2" class="category-all">
+                                                    全部智能硬件
+                                                    <i class="iconfont icon-jiantou-r"></i>
+                                                </a>
+                                                <ol class="category-sub clearfix">
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577197367050_312x100.jpg&quot;);">有线耳机</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196832639_312x100.jpg&quot;);">蓝牙耳机</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196400429_312x100.jpg&quot;);">音箱</a>
+                                                    </li>
+                                                </ol>
+                                                <ol class="category-product ">
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/30/10002530_1589791337135_250x250.png">
+                                                            <span>vivo TWS Neo 真无线耳机</span></a></li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/18/10001518_1588768486711_250x250.png">
+                                                            <span>vivo TWS Earphone 真无线蓝牙耳机</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/23/9923_1591343169607_250x250.png">
+                                                            <span>vivo XE100原装耳机</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/07/10001507_1609319822525_250x250.png">
+                                                            <span>iQOO 原装入耳式耳机</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/46/10005846_1599537287096_250x250.png">
+                                                            <span>vivo 耳机转接线</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/00/00_1540627445158_250x250.png">
+                                                            <span>vivo XE160原装耳机</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/83/10383_1589353967105_250x250.png">
+                                                            <span>vivo XE710耳机</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/28/10002528_1589769590502_250x250.png">
+                                                            <span>vivo 无线运动耳机</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/22/10002422_1609319687292_250x250.png">
+                                                            <span>影音耳机</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/73/10002173_1608778816146_250x250.png">
+                                                            <span>vivo 缤纷耳机</span></a></li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/83/10383_1589353967105_250x250.png">
+                                                            <span>vivo XE710 Type-C接口版耳机</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/72/10005572_1593673390937_250x250.png">
+                                                            <span>vivo XE160 Type-C接口版耳机</span></a>
+                                                    </li>
+
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href=" ../html/list.html?list=2">
+                                            <span>游戏摄影</span>
+                                            <i class="iconfont icon-jiantou-r"></i>
+                                        </a>
+                                        <div class="category-detail ">
+                                            <div class="category-detail-box ">
+                                                <p>游戏摄影</p>
+                                                <a href=" ../html/list.html?list=2" class="category-all">
+                                                    全部游戏摄影
+                                                    <i class="iconfont icon-jiantou-r"></i>
+                                                </a>
+                                                <ol class="category-sub clearfix">
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1592986951073_312x100.jpg&quot;);">游戏设备</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577197149356_312x100.jpg&quot;);">外设产品</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577197444819_312x100.jpg&quot;);">摄影配件</a>
+                                                    </li>
+                                                </ol>
+                                                <ol class="category-product ">
+                                                    <li>
+                                                        <a href="javascript:; "><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/96/10006196_1609743713177_250x250.png">
+                                                            <span>vivo 小V系列配饰</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/80/10006080_1605597375363_250x250.png">
+                                                            <span>SKG 颈部按摩仪 2.0 升级版 蓝牙款</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/83/10000483_1588756862043_250x250.png">
+                                                            <span>须眉 便携式剃须刀ST-R102</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/04/10000704_1609320357745_250x250.png">
+                                                            <span>V.FRIENDS摆件公仔</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/76/10000376_1588765349494_250x250.png">
+                                                            <span>Teethcare 声波电动牙刷</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/55/10005555_1593424629115_250x250.png">
+                                                            <span>赛嘉 声波电动牙刷 SG551</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/07/10006007_1603703989287_250x250.png">
+                                                            <span>金史密斯 走步机 S1</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/06/10006006_1603703738859_250x250.png">
+                                                            <span>金史密斯 跑步机 K9H</span>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/05/10006005_1603703394436_250x250.png">
+                                                            <span>金史密斯 跑步机 R1</span>
+                                                        </a>
+                                                    </li>
+
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href=" ../html/list.html?list=2">                                            <span>日用出行</span>
+                                            <i class="iconfont icon-jiantou-r"></i>
+                                        </a>
+                                        <div class="category-detail ">
+                                            <div class="category-detail-box ">
+                                                <p>日用出行</p>
+                                                <a href=" ../html/list.html?list=2" class="category-all">
+                                                    全部日用出行
+                                                    <i class="iconfont icon-jiantou-r"></i>
+                                                </a>
+                                                <ol class="category-sub clearfix">
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1594984070758_312x100.png&quot;);">个人护理</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1594984109913_312x100.jpg&quot;);">家居家纺</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1594984152478_312x100.png&quot;);">生活日用</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1610524347450_312x100.jpg&quot;);">配饰/箱包</a>
+                                                    </li>
+                                                    <li><a href="javascript:;"
+                                                            style="display: block; background-image: url(&quot;https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1601265605868_312x100.jpg&quot;);">运动健身</a>
+                                                    </li>
+                                                </ol>
+                                                <ol class="category-product ">
+                                                    <li>
+                                                        <a href="javascript:; "><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/96/10006196_1609743713177_250x250.png">
+                                                            <span>vivo 小V系列配饰</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/80/10006080_1605597375363_250x250.png">
+                                                            <span>SKG 颈部按摩仪 2.0 升级版 蓝牙款</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/83/10000483_1588756862043_250x250.png">
+                                                            <span>须眉 便携式剃须刀ST-R102</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/04/10000704_1609320357745_250x250.png">
+                                                            <span>V.FRIENDS摆件公仔</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/76/10000376_1588765349494_250x250.png">
+                                                            <span>Teethcare 声波电动牙刷</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/55/10005555_1593424629115_250x250.png">
+                                                            <span>赛嘉 声波电动牙刷 SG551</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a
+                                                            href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/07/10006007_1603703989287_250x250.png">
+                                                            <span>金史密斯 走步机 S1</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/06/10006006_1603703738859_250x250.png">
+                                                            <span>金史密斯 跑步机 K9H</span>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="javascript:;"><img
+                                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/05/10006005_1603703394436_250x250.png">
+                                                            <span>金史密斯 跑步机 R1</span>
+                                                        </a>
+                                                    </li>
+
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                </ul>
+            </div>
+            <div class="main-list">
+                <div class="goods-area-wrap">
+                    <ul class="goods-area">
+                        <li class="box-shadow1">
+                            <a href="../html/list.html?list=1">
+                                <img src="https://shopstatic.vivo.com.cn/vivoshop/commodity/20201009/20201009113301272241_original.jpg"
+                                    alt="">
+                            </a>
+                        </li>
+                        <li class="box-shadow1">
+                            <a href="../html/list.html?list=2">
+                                <img src="https://shopstatic.vivo.com.cn/vivoshop/commodity/20201009/2020100911330780357_original.jpg"
+                                    alt="">
+                            </a>
+                        </li>
+                        <li class="box-shadow1">
+                            <a href="#">
+                                <img src="https://shopstatic.vivo.com.cn/vivoshop/commodity/20201009/20201009113313982828_original.jpg"
+                                    alt=""> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="promotion-wrap">
+                    <div class="promotion">
+                        <div class="info">
+                            <div class="seckill">
+                                <img src="https://shopstatic.vivo.com.cn/vivoshop/spaweb/static/img/img-vbuy.9024e707.png"
+                                    alt="">
+                                <p class="count-down">
+                                    <span>距离结束</span>
+                                    <b>10</b>
+                                    <span>时</span>
+                                    <b>10</b>
+                                    <span>分</span>
+                                    <b>10</b>
+                                    <span>秒</span>
+                                </p>
+                                <a href="">更多场次
+                                    <i class="iconfont icon-jiantou-r"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="promotiop-good">
+                            <div class="next-btn clearfix">
+                                <span class="promotiop-left">
+                                    <i class="iconfont icon-jiantou-r"></i>
+                                </span>
+                                <span class="promotiop-right">
+                                    <i class="iconfont icon-jiantou-r"></i>
+                                </span>
+                            </div>
+                            <div class="hide">
+                                <ul>
+
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <img src="https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190920/e14111f7ccf200c948a1db7086330988.png_w530-h530.png"
+                                            alt="">
+                                        <a href=""><img
+                                                src="https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1610443529349_530x530.png"></a>
+                                        <div class="prod-info">
+                                            <p class="name">vivo 33W 10000mAh 双向闪充移动电源 云峰白</p>
+                                            <p class="desc">直降40元</p>
+                                            <p class="price">
+                                                <span class="text">￥<b>229</b></span>
+                                                <span class="text disabled">￥<b>269</b></span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="box-shadow1">
+                                        <h4 class="title">下一场</h4>
+                                        <p class="time">20:00</p>
+                                        <a href="">去看看</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="boutique-good">
+                            <p class="subject">热卖专区</p>
+                            <div class="boutique-zone">
+                            </div>
+                            <p class="subject">精品手机</p>
+                            <div class="boutique-phone">
+
+
+                            </div>
+                            <p class="subject">精品配件</p>
+                            <div class="boutique-parts">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,565 @@
+body {
+    background-color: #f7f7f5;
+    font-family: sans-serif;
+    color: #242933;
+}
+
+.header {
+    position: relative;
+    .sidebar {
+        position: fixed;
+        width: 50px;
+        right: 0;
+        bottom: 100px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 5px 30px -2px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+        li {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            span {
+                display: none;
+                position: absolute;
+                width: 133px;
+                color: #4c4c4c;
+                font-size: 16px;
+                line-height: 48px;
+                text-align: center;
+                right: 60px;
+                top: 0;
+                border: 1px solid #ebebeb;
+                background-color: #fff;
+                box-shadow: 0 0 50px 1px hsla(0, 0%, 39.2%, 0.1);
+                &::after {
+                    content: "";
+                    position: absolute;
+                    right: -14px;
+                    top: 15px;
+                    width: 0px;
+                    height: 0px;
+                    border: 7px solid transparent;
+                    border-left: 7px solid #fff;
+
+                }
+                
+            }
+            &:hover{
+                background-color: rgb(235, 235, 235);
+            }
+            &:hover span{
+                display: block;
+            }
+            &:last-of-type{
+                display: none;
+            }
+            i{
+                display: inline-block;
+                font-size: 28px;
+                
+            }
+            .icon-jiantou{
+                transform: rotate(180deg);
+                font-size: 32px;
+            }
+            .s-cart{
+                width: 290px;
+                height: 104px;
+                text-align: center;
+                line-height: 104px;
+                position: absolute;
+                left: -300px;
+                top: -56px;
+                background-color: #fff;
+                color: grey;;
+            }
+            
+        }
+    }
+}
+
+// 顶部导航栏
+.head-topbar-container {
+    background-color: rgb(36, 41, 51);
+
+    .head-topbar {
+        width: 1440px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        font-size: 12px;
+        color: #8a8f99;
+        font-family: sans-serif;
+
+        a {
+            color: #8a8f99;
+        }
+
+        .topbar-nav {
+            float: left;
+
+            li {
+                float: left;
+                margin-right: 42px;
+
+                &:hover a {
+                    color: #fff;
+                    transition: 0.2s;
+                }
+            }
+        }
+
+        //右侧用户栏
+        .topbar-user {
+            float: right;
+
+            .topbar-user-login-box {
+                float: left;
+            }
+
+            span {
+                display: block;
+
+                &:hover {
+                    color: #fff;
+                    transition: 0.2s;
+                }
+            }
+
+            a {
+                float: left;
+
+                &:nth-of-type(2) {
+                    margin-right: 26px;
+                }
+            }
+
+            .a1 {
+                position: relative;
+                margin-right: 41px;
+
+                &::after {
+                    content: "";
+                    width: 1px;
+                    height: 8px;
+                    position: absolute;
+                    right: -21px;
+                    top: 16px;
+                    background-color: #575c66;
+                }
+
+                .icon-clouddownload {
+                    position: absolute;
+                    left: -20px;
+                    top: 0;
+                }
+            }
+
+            .topbar-download {
+                //设置二维码hover
+                &:hover + div {
+                    display: block;
+                    z-index: 999;
+                }
+            }
+
+            //登录显示隐藏
+            .show {
+                display: block !important;
+            }
+
+            //个人中心
+            .topbar-user-login-box {
+                position: relative;
+                cursor: pointer;
+
+                .topbar-user-login {
+                    display: none;
+                    z-index: 9999;
+                    position: absolute;
+                    top: 40px;
+                    left: 50%;
+                    width: 172px;
+                    height: 105px;
+                    margin-top: 16px;
+                    border-radius: 8px;
+                    transform: translateX(-50%);
+                    background-color: #fff;
+                    padding: 0px 23px;
+                    box-sizing: border-box;
+                    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.09);
+
+                    a {
+                        width: 100%;
+                        text-align: center;
+                        height: 50%;
+                        line-height: 50px;
+
+                        &:first-child {
+                            border-bottom: 1px solid rgb(240, 227, 227);
+                        }
+
+                        &:hover {
+                            color: blue;
+                        }
+                    }
+
+                    .icon-denglu {
+                        font-size: 20px;
+                        position: relative;
+                        top: 3px;
+                    }
+
+                    i {
+                        margin-right: 8px;
+                    }
+
+                    //三角形
+                    &::before {
+                        content: "";
+
+                        border: 9px solid transparent {
+                            top: none;
+                            bottom: 9px solid #fff;
+                        }
+
+                        position: absolute;
+                        top: -9px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+
+            //二维码样式
+            .topbar-user-qrcode {
+                img {
+                    width: 140px;
+                    height: 140px;
+
+                    padding: 16px {
+                        bottom: 0;
+                    }
+                }
+
+                &::before {
+                    content: "";
+
+                    border: 9px solid transparent {
+                        top: none;
+                        bottom: 9px solid #fff;
+                    }
+
+                    position: absolute;
+                    top: -9px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                position: relative;
+                border-radius: 8px;
+                margin-top: 16px;
+                position: absolute;
+                top: 40px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #fff;
+                text-align: center;
+                display: none;
+            }
+        }
+    }
+}
+
+//头部容器
+.head-main-container {
+    background-color: transparent;
+    position: relative;
+
+    //头部内容
+    .head-main {
+        width: 1440px;
+        height: 86px;
+        margin: 0 auto;
+        color: #242933;
+        overflow: hidden;
+
+        a {
+            color: #242933;
+        }
+
+        //头部logo
+        .head-logo {
+            i {
+                font-size: 27px;
+            }
+
+            height: 86px;
+            width: 104px;
+            line-height: 80px;
+            float: left;
+            position: relative;
+            z-index: 999;
+
+            a:hover {
+                color: blueviolet;
+            }
+        }
+
+        //头部产品分类
+        .head-series-list {
+            float: left;
+            width: 1308px;
+            position: relative;
+            z-index: 99;
+
+            ul {
+                width: 100%;
+                height: 86px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    line-height: 86px;
+                    padding: 0 21px;
+                    font-size: 14px;
+                    &:hover a {
+                        color: blueviolet;
+                        transition: 0.5s all;
+                    }
+                }
+            }
+        }
+
+        //头部遮藏层
+        .head-product-mask {
+            width: 100%;
+            height: 0px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+            background-color: #fff;
+            transition: 1s all;
+            border-radius: 0 0 24px 24px;
+        }
+
+        //搜索框按钮
+        .head-search-btn {
+            position: relative;
+            top: 28px;
+            z-index: 999;
+
+            span {
+                position: absolute;
+                top: 0;
+                right: 0;
+                transition: 1s all;
+                cursor: pointer;
+                i {
+                    font-size: 28px;
+                }
+                &:hover {
+                    color: blueviolet;
+                }
+            }
+
+            .confirm {
+                z-index: 9;
+            }
+
+            .close {
+                z-index: 8;
+                opacity: 0;
+            }
+
+            .open {
+                display: inline-block;
+                width: 28px;
+                height: 28px;
+                z-index: 10;
+            }
+        }
+
+        //头部搜索框容器
+        .head-search-wrap {
+            width: 100%;
+            height: 0px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            border-radius: 0 0 24px 24px;
+            z-index: 100;
+            overflow: hidden;
+            transition: 1s all;
+            .head-search-box {
+                height: 100%;
+                width: 600px;
+                margin: 0 auto;
+                transition: 1s all;
+
+                //搜索框容器
+                .head-search-box-input {
+                    width: 600px;
+                    height: 24px;
+                    padding: 31px 0 17px;
+                    position: relative;
+                    transition: 1s all;
+                    overflow: hidden;
+                    //搜索框样式
+                    input {
+                        width: 570px;
+                        height: 24px;
+                        padding-right: 30px;
+                        position: absolute;
+                        top: 30px;
+                        left: -50px;
+                        transition: 1s all;
+                    }
+
+                    //搜索框边框
+                    .head-search-box-input-line {
+                        content: "";
+                        display: block;
+                        width: 600px;
+                        position: absolute;
+                        bottom: 0;
+                        height: 3px;
+                        background-color: #f0f2f5;
+                        right: -600px;
+                        transition: 1s all;
+                    }
+                }
+
+                //热搜容器
+                .head-search-box-content {
+                    transition: 1s all;
+
+                    dl {
+                        padding-top: 24px;
+                        line-height: 32px;
+                        overflow: hidden;
+                    }
+
+                    dt {
+                        line-height: 34px;
+                        font-size: 12px;
+                        color: #8a8f99;
+                    }
+                    dd{
+                        font-size: 14px;
+                        color: #242933;
+                        height: 32px;
+                        transition: 1s all;
+                        transform: translateX(600px);
+                    }
+                }
+            }
+        }
+
+        //头部产品分类hover展开
+        .head-series-wrapper {
+            margin-top: 86px;
+            width: 100%;
+
+            .head-series-product {
+                width: 1440px;
+                height: 0;
+                position: absolute;
+                overflow: hidden;
+                margin: 0 auto;
+                opacity: 0;
+                z-index: 99;
+                ul {
+                    padding-top: 36px;
+                    text-align: center;
+
+                    li {
+                        display: inline-block;
+                        position: relative;
+                        width: 240px;
+                        height: 260px;
+                        background-color: #f7f8fa;
+                        border-radius: 22px;
+                        &:not(:last-child) {
+                            margin-right: 15px;
+                        }
+
+                        img {
+                            height: 186px;
+                            position: absolute;
+                            top: 15px;
+                            right: 90px;
+                            transition: 0.5s all;
+                            &:nth-of-type(3) {
+                                right: 70px;
+                            }
+                        }
+
+                        a {
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                        }
+
+                        .head-series-product-name {
+                            margin-top: 12px;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+
+                &:nth-child(6) {
+                    img {
+                        right: 75px;
+                    }
+                }
+
+                .head-serirs-product-contrast {
+                    margin-top: 32px;
+
+                    div {
+                        font-size: 14px;
+                        line-height: 44px;
+                        width: 321px;
+                        height: 44px;
+                        margin: 0 auto;
+                        border-radius: 22px;
+                        background-color: #f7f8fa;
+                    }
+
+                    a {
+                        float: left;
+                        text-align: center;
+                        width: 160px;
+                        position: relative;
+                        font-size: 16px;
+                        i {
+                            font-size: 20px;
+                        }
+                        &:first-child {
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                width: 1px;
+                                height: 16px;
+                                background-color: #dfe1e6;
+                                top: 16px;
+                                right: -1px;
+                            }
+                        }
+                        &:hover {
+                            color: blueviolet;
+                            transition: 1s all;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

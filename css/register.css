@@ -1,0 +1,126 @@
+body {
+  font-size: 12px;
+  background-color: #f7f7f7;
+}
+
+.reg {
+  width: 860px;
+  height: 670px;
+  margin: 80px auto 0px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.reg form {
+  margin: 60px auto 100px;
+  width: 360px;
+  height: 248px;
+}
+
+.reg form input[type="text"], .reg form input[type="password"] {
+  width: 358px;
+  height: 46px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: Arial;
+  text-indent: 2em;
+  border: 1px solid #dedfe0;
+}
+
+.reg form p {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: left;
+  color: #999;
+}
+
+.reg form .protocol {
+  margin-top: 20px;
+  height: 20px;
+}
+
+.reg form .check {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #dedfe0;
+  cursor: pointer;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+}
+
+.reg form .check img {
+  width: 14px;
+  height: 10px;
+  position: absolute;
+  left: 1px;
+  top: 3px;
+  z-index: 10;
+  margin: 0;
+  display: none;
+}
+
+.reg form .check .show {
+  display: block;
+}
+
+.reg form .read {
+  float: left;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.reg form button {
+  width: 100%;
+  line-height: 48px;
+  margin-top: 20px;
+  font-family: HYQiHei-EZS,microsoft yahei,Helvetica Neue,Helvetica,Tahoma,sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #418eff;
+  color: #fff;
+}
+
+.reg form button:hover {
+  background-color: #456fff;
+}
+
+.reg img {
+  margin-top: 60px;
+  width: 160px;
+  height: 42px;
+}
+
+.reg .title {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.foot {
+  margin: 135px 0px 30px;
+  text-align: center;
+}
+
+.foot .service {
+  font-size: 12px;
+}
+
+.foot .service a {
+  color: #666;
+  margin-right: 30px;
+}
+
+.foot .service a:hover {
+  color: #456fff;
+}
+
+.foot .service img {
+  margin-right: 10px;
+}
+
+.foot .copyright {
+  font-size: 12px;
+  padding: 10px 0;
+  color: #9d9d9d;
+}
+/*# sourceMappingURL=register.css.map */

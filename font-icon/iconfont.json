@@ -1,0 +1,191 @@
+{
+  "id": "2364174",
+  "name": "vivo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "466316",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1299601",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "1337549",
+      "name": "点点点",
+      "font_class": "diandiandian",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "1608333",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "3283098",
+      "name": "箭头",
+      "font_class": "jiantou-r",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4321850",
+      "name": "闪电",
+      "font_class": "shandian",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "5237809",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "5477021",
+      "name": "心 (1)@2x",
+      "font_class": "xinx",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "5815256",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "6151277",
+      "name": "cloud download",
+      "font_class": "clouddownload",
+      "unicode": "e81b",
+      "unicode_decimal": 59419
+    },
+    {
+      "icon_id": "6749116",
+      "name": "正",
+      "font_class": "zheng",
+      "unicode": "e787",
+      "unicode_decimal": 59271
+    },
+    {
+      "icon_id": "7038052",
+      "name": "vivo",
+      "font_class": "vivo",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7987348",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9027892",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "9869162",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10439832",
+      "name": "小程序 (3)",
+      "font_class": "xiaochengxu",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "11630478",
+      "name": "注册",
+      "font_class": "zhuce",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "15053945",
+      "name": "放大镜",
+      "font_class": "ic_search24px",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "15159287",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "16117293",
+      "name": "帮 助",
+      "font_class": "bangzhu",
+      "unicode": "ea12",
+      "unicode_decimal": 59922
+    },
+    {
+      "icon_id": "16190870",
+      "name": "客服",
+      "font_class": "kefu1",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "16423322",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "16739838",
+      "name": "叉",
+      "font_class": "cha",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "17319299",
+      "name": "箱子",
+      "font_class": "xiangzi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "17904151",
+      "name": "电 话",
+      "font_class": "dianhua",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "19331071",
+      "name": "支 付 宝",
+      "font_class": "zhifubao",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    }
+  ]
+}

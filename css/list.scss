@@ -1,0 +1,176 @@
+//鼠标滑入动画
+.box-shadow1 {
+    transition: 0.3s all;
+    &:hover {
+        margin-top: -2px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.product-list {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .crumbs {
+        height: 72px;
+        line-height: 72px;
+        font-size: 13px;
+        span {
+            cursor: pointer;
+            &:last-of-type {
+                color: #999;
+                cursor: auto;
+            }
+        }
+    }
+    .filter {
+        width: 100%;
+        height: 127px;
+        box-sizing: border-box;
+        padding: 0 36px;
+        margin-bottom: 38px;
+        background-color: #fff;
+        .filter-tab {
+            width: 100%;
+            height: 63px;
+            padding-top: 7px;
+            border-bottom: 1px solid #ddd;
+            li {
+                margin-right: 36px;
+                line-height: 63px;
+                font-size: 16px;
+                float: left;
+                a {
+                    color: #999;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+                &:hover a {
+                    color: #242933;
+                }
+            }
+        }
+        .filter-tag {
+            width: 100%;
+            padding: 2px 0;
+            ul {
+                height: 30px;
+                padding: 11px 0;
+                li {
+                    margin-right: 44px;
+                    float: left;
+                    line-height: 30px;
+                    font-size: 14px;
+                    a {
+                        color: #999;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .tag-active {
+            color: #242933 !important;
+        }
+
+        .tab-active {
+            color: #242933 !important;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                z-index: 1;
+                bottom: -1px;
+                left: 50%;
+                margin-left: -20px;
+                width: 40px;
+                height: 1px;
+                background: #000;
+            }
+        }
+    }
+
+    .product {
+        width: 1300px;
+        .item {
+            width: 292px;
+            height: 340px;
+            background-color: #fff;
+            text-align: center;
+            padding-top: 40px;
+            margin: 0 11px 10px 0;
+            float: left;
+            a {
+                display: block;
+                width: 100%;
+                height: 304px;
+            }
+
+            img {
+                width: 180px;
+            }
+            p {
+                overflow: hidden;
+                line-height: 18px;
+            }
+            .img-box {
+                text-align: center;
+                height: 180px;
+            }
+            .prodinfo {
+                width: 180px;
+                height: 104px;
+                margin: 20px auto 0px;
+            }
+            .name {
+                height: 20px;
+                margin-bottom: 10px;
+                font-size: 16px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .feature2 {
+                height: 35px;
+                margin-bottom: 23px;
+            }
+            .price {
+                height: 16px;
+                color: #f51919;
+                font-size: 14px;
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .pagination {
+        width: 100%;
+        height: 28px;
+        padding: 34px 0;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        input {
+            width: 38px;
+            height: 26px;
+            text-align: center;
+            padding: 0 10px;
+            margin: 0 5px;
+            background-color: transparent;
+            border: 1px solid rgb(221, 221, 221);
+        }
+        button {
+            display: inline-block;
+            padding: 0 10px;
+            margin: 0 5px;
+            border: 1px solid rgb(221, 221, 221);
+            line-height: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
