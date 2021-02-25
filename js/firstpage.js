@@ -37,8 +37,7 @@ $(function () {
             url: '../php/first/first2.php',
             datatype: 'json'
         })
-
-        console.log(dt);
+        
         var str = ""
         for (var i = 0; i < 3; i++) {
             str += `
